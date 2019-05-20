@@ -3,8 +3,5 @@ sudo: true
 otp_release:
   - 20.3.8
 script:
-  - ./rebar3 eunit
-
-  ## for deps tests:
-  # - ./rebar3 as test compile
-  # - make test
+  - ./rebar3 as test compile
+  - make test
